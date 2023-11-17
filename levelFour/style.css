@@ -1,0 +1,32 @@
+.timer-box{
+    width: 800px;
+    height: 500px;
+    border: 2px solid black;
+    padding: 10px;
+    margin-left: 18rem;
+    margin-top: 6rem;
+    margin-right: 4rem;
+    }
+
+
+    body {
+        background-color: #ebebeb;
+        max-width: 1550px;
+        margin: 3rem auto;
+        text-align: center;
+      }
+      #countdown {
+        font-size: 2.5rem;
+        font-weight: bold;
+        background-color: #fff;
+        padding: 3rem;
+        border-radius: 1rem;
+        box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+      }
+      #countdown div {
+        display: inline-block;
+        margin: 0 0.5rem;
+      }
+      #countdown div span {
+        color: purple;
+      }
